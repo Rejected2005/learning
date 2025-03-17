@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <style>
+        #container > div {
+            background-color: blue;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-amber-300 p-4">
+        <nav class="flex w-[90%] m-auto justify-between items-center ">
+            <div>
+                <img src="https://i.pinimg.com/474x/ed/b9/60/edb960723d530d54fd9ffd5a3fe20dc3.jpg" alt="" class="w-full h-10 object-cover rounded-full">
+            </div>
+            <div class="hidden md:block">
+                <ul class="flex space-x-5">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">create</a></li>
+                    <li><a href="">update</a></li>
+                    <li><a href="">message</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="container" class="grid grid-cols-3 gap4 space-y-2 space-x-2 w-[90%] m-auto mt-10">
+        <div class="col-span-2">1</div>
+        <div>2</div>
+        <div class="col-span-3">3</div>
+        <div class="col-span-2">4</div>
+        <div>5</div>
+    </main>
+</body>
+</html>
